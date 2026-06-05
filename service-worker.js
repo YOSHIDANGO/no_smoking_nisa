@@ -1,7 +1,7 @@
-const CACHE_NAME = 'no-smoking-nisa-v1';
+﻿const CACHE_NAME = 'no-smoking-nisa-v2';
 const APP_SHELL = [
     './',
-    './index.php',
+    './index.html',
     './assets/style.css',
     './assets/app.js',
     './data/funds.json',
@@ -19,7 +19,8 @@ const APP_SHELL = [
     './assets/images/camp/23_icon_box_count.png',
     './assets/images/camp/24_icon_money_saved.png',
     './assets/images/pwa/icon-192.png',
-    './assets/images/pwa/icon-512.png'
+    './assets/images/pwa/icon-512.png',
+    './assets/images/ogp/ogp.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -57,7 +58,7 @@ self.addEventListener('fetch', (event) => {
                 return response;
             })
             .catch(() => caches.match(event.request).then((cached) => (
-                cached || caches.match('./index.php')
+                cached || caches.match('./index.html')
             )))
     );
 });

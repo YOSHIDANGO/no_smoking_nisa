@@ -1,9 +1,10 @@
-const YEARS = 15;
+﻿const YEARS = 15;
 const MONTHS = YEARS * 12;
 const RATES = [0.03, 0.05, 0.07, 0.10, 0.15];
 const CIGARETTES_PER_PACK = 20;
 const STORAGE_KEY = 'noSmokingNisaSettings';
 const SHARE_RATE = 0.05;
+const SITE_URL = 'https://no-smoking-nisa.vercel.app/';
 
 const healthItems = [
     {
@@ -211,7 +212,7 @@ function buildShareText() {
 
 async function shareCurrentResult() {
     const text = buildShareText();
-    const url = window.location.href.split('#')[0];
+    const url = SITE_URL;
 
     if (!text) {
         return;

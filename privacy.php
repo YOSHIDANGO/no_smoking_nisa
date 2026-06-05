@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
         <p>当サイトでは、アフィリエイトプログラムを利用した広告を掲載する場合があります。広告配信事業者は、ユーザーの興味に応じた広告を表示するためCookieを使用することがあります。</p>
         <h2>免責</h2>
         <p>当サイトの情報は正確性に配慮していますが、内容の完全性・最新性を保証するものではありません。</p>
-        <a class="back-link" href="index.php">トップへ戻る</a>
+        <a class="back-link" href="index.html">トップへ戻る</a>
     </section>
 </main>
 </body>

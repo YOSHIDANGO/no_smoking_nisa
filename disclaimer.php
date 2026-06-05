@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
         <p>禁煙後の健康遷移は一般的な目安です。個別の症状や治療については医師など専門家へ相談してください。</p>
         <h2>アフィリエイト広告について</h2>
         <p>当サイトにはアフィリエイト広告が含まれる場合があります。広告リンク経由でサービス申込みが行われた場合、運営者が報酬を受け取ることがあります。</p>
-        <a class="back-link" href="index.php">トップへ戻る</a>
+        <a class="back-link" href="index.html">トップへ戻る</a>
     </section>
 </main>
 </body>

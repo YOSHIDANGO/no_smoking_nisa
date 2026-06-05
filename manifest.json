@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "\u7981\u7159NISA\u30b7\u30df\u30e5\u30ec\u30fc\u30bf\u30fc",
   "short_name": "\u7981\u7159NISA",
   "description": "\u7981\u7159\u65e5\u6570\u3001\u6d6e\u3044\u305f\u305f\u3070\u3053\u4ee3\u3001NISA\u7a4d\u7acb\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3\u3092\u6bce\u65e5\u78ba\u8a8d\u3067\u304d\u308b\u30ab\u30a6\u30f3\u30bf\u30fc\u3067\u3059\u3002",
-  "start_url": "./index.php",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fbfaf7",

@@ -1,0 +1,7 @@
+﻿{
+  "redirects": [
+    { "source": "/index.php", "destination": "/", "permanent": true },
+    { "source": "/privacy.php", "destination": "/privacy.html", "permanent": true },
+    { "source": "/disclaimer.php", "destination": "/disclaimer.html", "permanent": true }
+  ]
+}

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $today = date('Y-m-d');
 $defaultStartDate = date('Y-m-d', strtotime('-35 days'));
 $defaultPrice = 600;
@@ -32,14 +32,8 @@ $brokerLogoMap = [
     '松井証券' => 'assets/images/brokers/matsui.svg',
 ];
 
-$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
-$siteUrl = $scheme . '://' . $host . strtok($_SERVER['REQUEST_URI'] ?? '/index.php', '?');
-$basePath = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '')), '/');
-if ($basePath === '.') {
-    $basePath = '';
-}
-$ogpImageUrl = $scheme . '://' . $host . $basePath . '/assets/images/ogp/ogp.png';
+$siteUrl = 'https://no-smoking-nisa.vercel.app/';
+$ogpImageUrl = 'https://no-smoking-nisa.vercel.app/assets/images/ogp/ogp.png';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -273,8 +267,8 @@ $ogpImageUrl = $scheme . '://' . $host . $basePath . '/assets/images/ogp/ogp.png
     </section>
 
     <footer class="site-footer">
-        <a href="privacy.php">プライバシーポリシー</a>
-        <a href="disclaimer.php">免責事項・広告表記</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="disclaimer.html">免責事項・広告表記</a>
     </footer>
 </main>
 
